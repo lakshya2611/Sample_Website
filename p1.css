@@ -1,0 +1,99 @@
+        *,
+        ::after,
+        ::before {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: springgreen;
+        }
+
+        .result{
+            margin-top:50px;
+            font-size: 30px;
+            text-transform:capitalize;
+        }
+
+        .welcome{
+            margin-top:30px;
+            /* padding-bottom:50px; */
+        }
+
+        .para{
+            padding:20px 0 60px 0;
+        }
+
+        .play {
+            font-size: 70px;
+            padding: 10px;
+            border-radius: 5px;
+            color: tomato;
+        }
+
+        .playbtn {
+            text-align: center;
+            margin-top: 250px;
+        }
+
+        .img{
+            height:150px;
+            border-radius:50px;
+        }
+
+        .container{
+            /* background-color: yellowgreen; */
+            width:800px;
+            text-align: center;
+            margin:0 auto;
+        }
+
+        .btnContainer{
+            display:flex;
+            flex-direction:row;
+            justify-content: space-around;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+
+        .score{
+            font-size: 25px;
+            display: flex;
+            flex-direction:row;
+            justify-content: space-around;
+            margin-top:17px;
+        }
+
+        .success{
+            color:green;
+            background-color:rgb(148, 197, 148);
+            padding:5px;
+        }
+
+        .danger{
+            color:red;
+            background-color:rgb(184, 145, 145);
+            padding:5px;
+        }
+
+        .playAgain{
+            font-size:20px;
+            padding:5px;
+        }
+
+        .last{
+            margin-top: 10px;
+            visibility: hidden;
+        }
+
+        .result{
+            margin-bottom: 50px;
+            text-transform: capitalize;
+        }
+
+
+
+
